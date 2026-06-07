@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=18008E&height=220&section=header&text=Page%20Leaderboard%20GPA&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36" alt="Page Leaderboard GPA Banner" />
 
@@ -43,8 +43,12 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript. Fokus pengembangannya 
 ## Visual Preview | Pratinjau Visual
 
 <p align="center">
-  <b>Preview image belum ditambahkan.</b><br>
-  <sub>Tambahkan screenshot project ke folder <code>docs/readme</code>, lalu hubungkan gambar tersebut di bagian ini.</sub>
+  <img src="./docs/readme/web-landing-page-leaderboard.png" alt="Page Leaderboard GPA Visual Preview" width="900" />
+</p>
+
+<p align="center">
+  <sub><b>EN:</b> Static GPA leaderboard page preview with semester card board layout.</sub><br>
+  <sub><b>ID:</b> Pratinjau halaman leaderboard GPA statis dengan layout card board semester.</sub>
 </p>
 
 ---
@@ -158,23 +162,23 @@ UI Direction       : High contrast and compact information layout
 
 ```text
 page-leaderboard-gpa-vibe-coding
-├── assets
-│   ├── icons
-│   │   └── movement
-│   │       ├── down.png
-│   │       ├── down.svg
-│   │       ├── up.png
-│   │       └── up.svg
-│   └── images
-│       ├── fighter-2.png
-│       └── orang.png
-├── index.html
-├── style.css
-├── main.js
-├── README.md
-├── LICENSE
-├── VERSION
-└── .gitignore
+â”œâ”€â”€ assets
+â”‚   â”œâ”€â”€ icons
+â”‚   â”‚   â””â”€â”€ movement
+â”‚   â”‚       â”œâ”€â”€ down.png
+â”‚   â”‚       â”œâ”€â”€ down.svg
+â”‚   â”‚       â”œâ”€â”€ up.png
+â”‚   â”‚       â””â”€â”€ up.svg
+â”‚   â””â”€â”€ images
+â”‚       â”œâ”€â”€ fighter-2.png
+â”‚       â””â”€â”€ orang.png
+â”œâ”€â”€ index.html
+â”œâ”€â”€ style.css
+â”œâ”€â”€ main.js
+â”œâ”€â”€ README.md
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ VERSION
+â””â”€â”€ .gitignore
 ```
 
 ---
