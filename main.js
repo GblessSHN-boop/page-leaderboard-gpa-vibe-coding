@@ -120,7 +120,9 @@ function createRankingCard(item) {
           <div class="featured-name">${champion.name}</div>
           ${champion.tag ? `<span class="featured-tag">${champion.tag}</span>` : ""}
         </div>
-        <img class="featured-image" src="${item.image}" alt="${champion.name}">
+        <a class="featured-image-link" href="#no-name" title="No Name" aria-label="No Name">
+  <img class="featured-image" src="${item.image}" alt="No Name">
+</a>
       </div>
 
       <ol class="fighter-list">
@@ -156,6 +158,7 @@ menuToggle.addEventListener("click", () => {
 
 renderFilters();
 renderCards();
+
 
 
 
