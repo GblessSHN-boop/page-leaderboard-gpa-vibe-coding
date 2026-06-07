@@ -283,3 +283,198 @@ renderCards();
   enhanceGpaHoverReveal();
 })();
 // GPA_HOVER_REVEAL_END
+
+
+// SEO_DYNAMIC_START
+(function () {
+  const SEO_BASE = {
+    siteName: "Page Leaderboard GPA",
+    developer: "Gland Jermano Blessed Siahaan",
+    canonical: "https://gblessshn-boop.github.io/page-leaderboard-gpa-vibe-coding/",
+    image: "https://gblessshn-boop.github.io/page-leaderboard-gpa-vibe-coding/docs/readme/web-landing-page-leaderboard.png"
+  };
+
+  function cleanText(value) {
+    return String(value || "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function upsertMetaByName(name, content) {
+    if (!content) return;
+
+    let tag = document.querySelector(`meta[name="${name}"]`);
+
+    if (!tag) {
+      tag = document.createElement("meta");
+      tag.setAttribute("name", name);
+      document.head.appendChild(tag);
+    }
+
+    tag.setAttribute("content", content);
+  }
+
+  function upsertMetaByProperty(property, content) {
+    if (!content) return;
+
+    let tag = document.querySelector(`meta[property="${property}"]`);
+
+    if (!tag) {
+      tag = document.createElement("meta");
+      tag.setAttribute("property", property);
+      document.head.appendChild(tag);
+    }
+
+    tag.setAttribute("content", content);
+  }
+
+  function getLeaderboardSeoData() {
+    const items = [];
+
+    if (typeof rankings !== "undefined" && Array.isArray(rankings)) {
+      rankings.forEach((semester) => {
+        const semesterName = cleanText(semester.division);
+
+        if (Array.isArray(semester.fighters)) {
+          semester.fighters.forEach((fighter) => {
+            items.push({
+              semester: semesterName,
+              rank: fighter.rank,
+              name: cleanText(fighter.name),
+              gpa: cleanText(fighter.gpa || fighter.tag || "GPA 4.00"),
+              movement: cleanText(fighter.movement || "")
+            });
+          });
+        }
+      });
+    }
+
+    document.querySelectorAll(".ranking-card").forEach((card) => {
+      const semester = cleanText(card.querySelector("h3")?.textContent);
+
+      card.querySelectorAll(".fighter-row").forEach((row) => {
+        const rank = cleanText(row.querySelector(".rank-number")?.textContent);
+        const name = cleanText(row.querySelector(".name-text")?.textContent || row.querySelector(".fighter-name")?.textContent);
+        const gpa = cleanText(row.querySelector(".gpa-text")?.textContent || "GPA 4.00");
+
+        if (rank && name) {
+          items.push({
+            semester,
+            rank,
+            name,
+            gpa
+          });
+        }
+      });
+    });
+
+    return items;
+  }
+
+  function syncGpaLeaderboardSeo() {
+    const items = getLeaderboardSeoData();
+    const visibleNames = [...new Set(items.map((item) => item.name).filter(Boolean))].slice(0, 8);
+    const visibleSemesters = [...new Set(items.map((item) => item.semester).filter(Boolean))];
+
+    const title = "Page Leaderboard GPA - GPA Semester 1 and GPA Semester 2";
+    const description = `Responsive GPA leaderboard page featuring ${visibleSemesters.join(", ") || "semester ranking boards"}, GPA score display, movement indicators, and interactive ranking rows by Gland Siahaan.`;
+    const keywords = [
+      "GPA leaderboard",
+      "leaderboard GPA",
+      "GPA semester",
+      "student ranking",
+      "academic leaderboard",
+      "semester ranking page",
+      "HTML CSS JavaScript",
+      "vibe coding",
+      "Gland Siahaan",
+      ...visibleNames
+    ].join(", ");
+
+    document.title = title;
+
+    upsertMetaByName("description", description);
+    upsertMetaByName("keywords", keywords);
+    upsertMetaByName("author", SEO_BASE.developer);
+    upsertMetaByName("robots", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
+    upsertMetaByName("theme-color", "#430808");
+
+    upsertMetaByProperty("og:title", title);
+    upsertMetaByProperty("og:description", description);
+    upsertMetaByProperty("og:type", "website");
+    upsertMetaByProperty("og:site_name", SEO_BASE.siteName);
+    upsertMetaByProperty("og:url", SEO_BASE.canonical);
+    upsertMetaByProperty("og:image", SEO_BASE.image);
+
+    upsertMetaByName("twitter:card", "summary_large_image");
+    upsertMetaByName("twitter:title", title);
+    upsertMetaByName("twitter:description", description);
+    upsertMetaByName("twitter:image", SEO_BASE.image);
+
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": SEO_BASE.siteName,
+      "description": description,
+      "url": SEO_BASE.canonical,
+      "creator": {
+        "@type": "Person",
+        "name": SEO_BASE.developer,
+        "sameAs": [
+          "https://github.com/GblessSHN-boop",
+          "https://www.instagram.com/glandsiahaan",
+          "https://www.linkedin.com/in/glandsiahaan/"
+        ]
+      },
+      "itemListElement": items.slice(0, 20).map((item, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": `${item.semester || "GPA Semester"} Rank ${item.rank} - ${item.name}`,
+        "description": `${item.name} holds ${item.gpa || "GPA 4.00"} in ${item.semester || "GPA leaderboard"}.`
+      }))
+    };
+
+    let script = document.querySelector("#seo-jsonld");
+
+    if (!script) {
+      script = document.createElement("script");
+      script.id = "seo-jsonld";
+      script.type = "application/ld+json";
+      document.head.appendChild(script);
+    }
+
+    script.textContent = JSON.stringify(jsonLd, null, 2);
+  }
+
+  function syncFooterYear() {
+    const yearTarget = document.querySelector("#currentYear");
+
+    if (yearTarget) {
+      yearTarget.textContent = new Date().getFullYear();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    syncFooterYear();
+    syncGpaLeaderboardSeo();
+  });
+
+  window.addEventListener("load", function () {
+    syncFooterYear();
+    syncGpaLeaderboardSeo();
+  });
+
+  window.syncGpaLeaderboardSeo = syncGpaLeaderboardSeo;
+
+  const seoObserver = new MutationObserver(function () {
+    window.clearTimeout(window.__gpaSeoTimer);
+    window.__gpaSeoTimer = window.setTimeout(syncGpaLeaderboardSeo, 150);
+  });
+
+  seoObserver.observe(document.body, {
+    childList: true,
+    subtree: true,
+    characterData: true
+  });
+})();
+// SEO_DYNAMIC_END
