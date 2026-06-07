@@ -7,24 +7,27 @@
     "fighters": [
       {
         "rank": 1,
-        "name": "GPA SEMESTER 1",
+        "name": "NO NAME",
         "change": null,
         "tag": "GPA 4.00"
       },
       {
         "rank": 2,
-        "name": "TOTAL SKS",
-        "change": null
+        "name": "NO NAME",
+        "change": 1,
+        "movement": "up"
       },
       {
         "rank": 3,
-        "name": "INDEKS PRESTASI",
-        "change": null
+        "name": "NO NAME",
+        "change": 1,
+        "movement": "up"
       },
       {
         "rank": 4,
-        "name": "STATUS AKADEMIK",
-        "change": null
+        "name": "NO NAME",
+        "change": 1,
+        "movement": "down"
       }
     ]
   },
@@ -36,24 +39,27 @@
     "fighters": [
       {
         "rank": 1,
-        "name": "GPA SEMESTER 2",
+        "name": "NO NAME",
         "change": null,
         "tag": "GPA 4.00"
       },
       {
         "rank": 2,
-        "name": "TOTAL SKS",
-        "change": null
+        "name": "NO NAME",
+        "change": 1,
+        "movement": "up"
       },
       {
         "rank": 3,
-        "name": "INDEKS PRESTASI",
-        "change": null
+        "name": "NO NAME",
+        "change": 1,
+        "movement": "up"
       },
       {
         "rank": 4,
-        "name": "STATUS AKADEMIK",
-        "change": null
+        "name": "NO NAME",
+        "change": 1,
+        "movement": "down"
       }
     ]
   }
@@ -105,7 +111,12 @@ function createRankingCard(item) {
 
       <div class="featured-fighter">
         <div class="featured-meta">
-          <div class="featured-rank">#${champion.rank}</div>
+          <div class="featured-rank">
+  <span>#${champion.rank}</span>
+  <a class="title-badge-link" href="#tittle-by-gland-siahaan" title="Tittle by Gland Siahaan" aria-label="Tittle by Gland Siahaan">
+    <img class="title-badge" src="assets/icons/title/tittle-by-gland.png" alt="Tittle by Gland Siahaan">
+  </a>
+</div>
           <div class="featured-name">${champion.name}</div>
           ${champion.tag ? `<span class="featured-tag">${champion.tag}</span>` : ""}
         </div>
@@ -145,6 +156,10 @@ menuToggle.addEventListener("click", () => {
 
 renderFilters();
 renderCards();
+
+
+
+
 
 
 

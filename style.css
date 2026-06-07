@@ -18,7 +18,7 @@
   --panel: #d8d8d8;
   --panel-dark: #c8c8c8;
   --text-dark: #2b2d31;
-  --red: #ff2b10;
+  --red: #430808;
   --line: rgba(255, 255, 255, 0.12);
   --max-width: 1180px;
   --font-display: "VanchromeLocal", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -526,7 +526,7 @@ img {
 }
 
 .change-down {
-  color: #ff2b10;
+  color: #430808;
 }
 
 
@@ -673,3 +673,28 @@ article,
 }
 /* ===== END FORCE ALL TEXT TO IMPACT REGULAR ===== */
 
+
+
+
+/* ===== TITLE BADGE BESIDE #1 ===== */
+.featured-rank {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+.title-badge-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title-badge {
+  width: 54px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
