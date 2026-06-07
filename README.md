@@ -1,21 +1,23 @@
-﻿<div align="center">
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=18008E&height=220&section=header&text=Page%20Leaderboard%20GPA&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36" alt="Page Leaderboard GPA Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=430808&height=220&section=header&text=Page%20Leaderboard%20GPA&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36" alt="Page Leaderboard GPA Banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&pause=900&color=E182F9&center=true&vCenter=true&width=950&lines=Static+Web+Leaderboard+Page;GPA+Semester+Ranking+Interface;Academic+Performance+Dashboard;HTML+CSS+JavaScript+Frontend;Responsive+Leaderboard+Card+Design;Built+with+Vibe+Coding+Workflow" alt="Typing Animation" />
-
-<br />
-
-<img src="https://img.shields.io/badge/Project-Web%20Page-18008E?style=for-the-badge" alt="Web Page" />
-<img src="https://img.shields.io/badge/Version-1.0.0-7220D1?style=for-the-badge" alt="Version 1.0.0" />
-<img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-E182F9?style=for-the-badge" alt="Frontend" />
-<img src="https://img.shields.io/badge/Mode-Static%20Website-000000?style=for-the-badge" alt="Static Website" />
-<img src="https://img.shields.io/badge/Language-EN%20%7C%20ID-E182F9?style=for-the-badge" alt="English Indonesian" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&pause=900&color=FFFFFF&center=true&vCenter=true&width=950&lines=Static+Web+Leaderboard+Page;GPA+Semester+Ranking+Interface;Academic+Performance+Dashboard;Responsive+Leaderboard+Card+Design;SEO+Friendly+Frontend+Structure;Built+with+Vibe+Coding+Workflow" alt="Typing Animation" />
 
 <br />
 
-<img src="https://img.shields.io/badge/Developer-GLAND%20JERMANO%20BLESSED%20SIAHAAN-7220D1?style=for-the-badge" alt="Developer" />
-<img src="https://img.shields.io/badge/Location-Medan%2C%20Indonesia-18008E?style=for-the-badge" alt="Medan Indonesia" />
+<img src="https://img.shields.io/badge/Project-Web%20Page-430808?style=for-the-badge" alt="Web Page" />
+<img src="https://img.shields.io/badge/Version-1.0.0-000000?style=for-the-badge" alt="Version 1.0.0" />
+<img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-430808?style=for-the-badge" alt="Frontend" />
+<img src="https://img.shields.io/badge/Mode-Static%20Website-111111?style=for-the-badge" alt="Static Website" />
+<img src="https://img.shields.io/badge/SEO-Friendly-430808?style=for-the-badge" alt="SEO Friendly" />
+<img src="https://img.shields.io/badge/Mobile-Friendly-000000?style=for-the-badge" alt="Mobile Friendly" />
+<img src="https://img.shields.io/badge/Language-EN%20%7C%20ID-430808?style=for-the-badge" alt="English Indonesian" />
+
+<br />
+
+<img src="https://img.shields.io/badge/Developer-GLAND%20JERMANO%20BLESSED%20SIAHAAN-430808?style=for-the-badge" alt="Developer" />
+<img src="https://img.shields.io/badge/Location-Medan%2C%20Indonesia-000000?style=for-the-badge" alt="Medan Indonesia" />
 <img src="https://img.shields.io/badge/Repository-Vibe%20Coding-111827?style=for-the-badge" alt="Vibe Coding" />
 
 </div>
@@ -24,19 +26,19 @@
 
 ## English
 
-**Page Leaderboard GPA - Vibe Coding** is a static web leaderboard page designed to display GPA information for Semester 1 and Semester 2 using a clean, bold, and structured card based interface.
+**Page Leaderboard GPA - Vibe Coding** is a static web leaderboard page designed to display GPA information for Semester 1 and Semester 2 through a clean, bold, responsive, and SEO friendly frontend interface.
 
-This project transforms a ranking board visual concept into an academic performance dashboard. Instead of showing athlete rankings, the interface is redesigned to present GPA semester boards, academic score labels, profile image placement, and compact information rows.
+This project transforms a leaderboard visual concept into an academic performance dashboard. Instead of displaying athlete rankings, the interface is redesigned to present GPA semester boards, academic score labels, profile image placement, movement indicators, hover interaction, documentation page, and structured metadata for future development.
 
-The project is built with HTML, CSS, and JavaScript. It focuses on frontend layout composition, card based visual hierarchy, responsive styling, custom image placement, movement indicator assets, and structured project documentation.
+The project is built using **HTML, CSS, and JavaScript**. It focuses on frontend layout composition, responsive board design, clean typography, image placement, interaction animation, dynamic ranking data, SEO metadata, and portfolio ready documentation.
 
 ## Indonesia
 
-**Page Leaderboard GPA - Vibe Coding** adalah halaman web statis berbentuk leaderboard yang dirancang untuk menampilkan informasi GPA Semester 1 dan Semester 2 melalui tampilan card yang bersih, tegas, dan terstruktur.
+**Page Leaderboard GPA - Vibe Coding** adalah halaman web statis berbentuk leaderboard yang dirancang untuk menampilkan informasi GPA Semester 1 dan Semester 2 melalui tampilan frontend yang bersih, tegas, responsif, dan SEO friendly.
 
-Project ini mengubah konsep visual ranking board menjadi dashboard performa akademik. Alih-alih menampilkan ranking atlet, interface ini didesain ulang untuk menampilkan board semester, label nilai GPA, penempatan foto profil, dan baris informasi yang ringkas.
+Project ini mengubah konsep visual leaderboard menjadi dashboard performa akademik. Alih-alih menampilkan ranking atlet, interface ini didesain ulang untuk menampilkan board semester, label nilai GPA, penempatan foto profil, movement indicator, animasi hover, halaman dokumentasi, serta metadata yang rapi untuk pengembangan lanjutan.
 
-Project ini dibuat menggunakan HTML, CSS, dan JavaScript. Fokus pengembangannya meliputi komposisi layout frontend, hierarki visual berbasis card, styling responsif, penempatan gambar, aset movement indicator, dan dokumentasi project yang terstruktur.
+Project ini dibuat menggunakan **HTML, CSS, dan JavaScript**. Fokus pengembangannya meliputi komposisi layout frontend, desain board responsif, tipografi tegas, penempatan gambar, animasi interaksi, data ranking dinamis, metadata SEO, dan dokumentasi project yang siap digunakan sebagai portofolio.
 
 ---
 
@@ -63,6 +65,8 @@ Project Type     : Static Web Page
 Development Area : Frontend Web Design
 Main Feature     : GPA Semester Leaderboard
 Technology       : HTML, CSS, JavaScript
+SEO Direction    : Dynamic friendly metadata structure
+Mobile Direction : Responsive leaderboard interface
 Developer        : GLAND JERMANO BLESSED SIAHAAN
 Location         : Medan, Indonesia
 GitHub           : GblessSHN-boop
@@ -73,29 +77,71 @@ Current Status   : Initial Stable Frontend Prototype
 
 ## Main Concept
 
-Page Leaderboard GPA is designed as a simple academic leaderboard interface. The page presents GPA information in two main boards.
+Page Leaderboard GPA is designed as a compact academic leaderboard interface. The page presents GPA information in two main semester boards.
 
 ```text
 GPA SEMESTER 1
 GPA SEMESTER 2
 ```
 
-The layout uses a dark background, high contrast card board, bold typography, and profile image composition to create a strong academic dashboard appearance.
+The layout uses a dark background, high contrast board area, bold typography, profile image composition, movement indicators, and hover interaction to create a strong academic dashboard appearance.
+
+This project is also prepared for future CRUD development. If the ranking names, GPA values, semester labels, profile images, or movement indicators are later generated dynamically from a database, the page structure can still support SEO friendly content through semantic HTML, metadata, dynamic title structure, and clean data rendering.
+
+---
+
+## Main Feature Direction
+
+```text
+Two semester leaderboard boards
+GPA 4.00 score label
+NO NAME placeholder data
+Profile image placement
+Title badge beside rank number one
+Movement indicator for rank movement
+Hover reveal animation from name to GPA score
+SEO friendly HTML structure
+Mobile friendly responsive layout
+Documentation page with EN and ID content
+Footer copyright and social media icons
+Clean repository documentation
+```
 
 ---
 
 ## Core Features
 
-```text
-Static web leaderboard page
-Two GPA semester card boards
-Academic score label
-Profile image area
-Movement indicator asset
-Responsive frontend structure
-Clean HTML, CSS, and JavaScript separation
-Portfolio ready documentation
-```
+### GPA Semester Leaderboard
+
+The interface displays two academic leaderboard boards for Semester 1 and Semester 2. Each board uses the same structure so the layout stays consistent and easy to edit.
+
+### Dynamic Data Rendering
+
+The ranking data is managed from JavaScript. The name, rank, GPA value, movement direction, movement number, image path, and semester title can be adjusted from the data object.
+
+### Hover GPA Reveal
+
+Rows from rank 2 to rank 10 use a hover interaction. When the cursor is placed over the name area, the `NO NAME` label transitions into `GPA 4.00` using a smooth blur animation.
+
+### Movement Indicator
+
+The leaderboard includes clean movement icons for upward and downward ranking movement. The icons use transparent background assets to keep the layout clean.
+
+### Title Badge
+
+Rank number one includes a small title badge beside the `#1` label. The badge supports hover identity through title or link behavior.
+
+### Responsive Layout
+
+The layout is designed to remain usable across desktop and mobile screens. The board can stack vertically on smaller screens while preserving the visual identity.
+
+### SEO Friendly Structure
+
+The project includes SEO metadata, Open Graph metadata, Twitter card metadata, semantic page titles, description content, and scalable structure for future dynamic CRUD integration.
+
+### Documentation Page
+
+The project includes a separate documentation page with simple, sharp, and square visual direction. The documentation uses English and Indonesian content support.
 
 ---
 
@@ -103,14 +149,76 @@ Portfolio ready documentation
 
 ```text
 Primary Background : #000000
-Primary Color      : #18008E
-Accent Color       : #FF2B10
-Soft Highlight     : #E182F9
+Theme Red          : #430808
 Card Background    : #D8D8D8
-Text Color         : #FFFFFF and #2B2D31
+Light Row          : #EDEDED
+Dark Row           : #CFCFCF
+Text Dark          : #2B2D31
+Text Light         : #FFFFFF
 Design Style       : Bold, clean, formal, academic, leaderboard inspired
-UI Direction       : High contrast and compact information layout
+UI Direction       : Sharp corner, no rounded card, high contrast, compact layout
+Typography         : Impact Regular style direction
 ```
+
+The interface avoids rounded card corners and soft capsule elements. The visual direction is built with sharp rectangular forms, high contrast surfaces, and a strong leaderboard inspired layout.
+
+---
+
+## SEO Direction
+
+This project is prepared with SEO friendly frontend structure.
+
+SEO elements include:
+
+```text
+Descriptive page title
+Meta description
+Meta keywords
+Canonical friendly structure
+Open Graph title
+Open Graph description
+Open Graph image
+Twitter card metadata
+Semantic content hierarchy
+Accessible image alt text
+Readable anchor labels
+Future friendly dynamic content structure
+```
+
+Future CRUD direction:
+
+```text
+Student name can replace NO NAME
+GPA score can replace GPA 4.00
+Semester label can be generated dynamically
+Profile image can be loaded from database
+Movement indicator can be calculated from ranking history
+SEO title can be generated from selected semester
+SEO description can include updated leaderboard data
+```
+
+This makes the interface suitable as a static prototype and also scalable for a future dynamic GPA leaderboard system.
+
+---
+
+## Mobile Friendly Direction
+
+The page is designed to adapt to smaller screens through responsive CSS.
+
+Mobile direction includes:
+
+```text
+Stacked leaderboard boards
+Flexible board width
+Responsive image placement
+Readable row spacing
+Footer layout adjustment
+Documentation page readability
+Touch friendly social icons
+Reduced horizontal overflow
+```
+
+The goal is to keep the leaderboard readable and visually consistent on desktop, tablet, and mobile devices.
 
 ---
 
@@ -122,6 +230,8 @@ UI Direction       : High contrast and compact information layout
 | Styling | CSS |
 | Interaction | JavaScript |
 | Asset Type | PNG and SVG |
+| SEO | HTML Meta Tags and Semantic Structure |
+| Responsiveness | CSS Media Query |
 | Version Control | Git and GitHub |
 | Editor | Visual Studio Code |
 | Terminal | PowerShell |
@@ -152,7 +262,7 @@ UI Direction       : High contrast and compact information layout
 
 <p align="left">
   <img src="https://img.shields.io/badge/ChatGPT-AI%20Assisted%20Development-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Vibe%20Coding-Experimental%20Workflow-18008E?style=for-the-badge" alt="Vibe Coding" />
+  <img src="https://img.shields.io/badge/Vibe%20Coding-Experimental%20Workflow-430808?style=for-the-badge" alt="Vibe Coding" />
   <img src="https://img.shields.io/badge/Human%20Directed-Developer%20Controlled-000000?style=for-the-badge" alt="Human Directed" />
 </p>
 
@@ -162,23 +272,30 @@ UI Direction       : High contrast and compact information layout
 
 ```text
 page-leaderboard-gpa-vibe-coding
-â”œâ”€â”€ assets
-â”‚   â”œâ”€â”€ icons
-â”‚   â”‚   â””â”€â”€ movement
-â”‚   â”‚       â”œâ”€â”€ down.png
-â”‚   â”‚       â”œâ”€â”€ down.svg
-â”‚   â”‚       â”œâ”€â”€ up.png
-â”‚   â”‚       â””â”€â”€ up.svg
-â”‚   â””â”€â”€ images
-â”‚       â”œâ”€â”€ fighter-2.png
-â”‚       â””â”€â”€ orang.png
-â”œâ”€â”€ index.html
-â”œâ”€â”€ style.css
-â”œâ”€â”€ main.js
-â”œâ”€â”€ README.md
-â”œâ”€â”€ LICENSE
-â”œâ”€â”€ VERSION
-â””â”€â”€ .gitignore
+├── assets
+│   ├── icons
+│   │   ├── movement
+│   │   │   ├── down-clean.png
+│   │   │   └── up-clean.png
+│   │   ├── social
+│   │   │   ├── github.png
+│   │   │   ├── instagram.svg
+│   │   │   └── linkedin.svg
+│   │   └── title
+│   │       └── tittle-by-gland.png
+│   └── images
+│       └── orang.png
+├── docs
+│   └── readme
+│       └── visual-preview-latest.png
+├── documentation.html
+├── index.html
+├── main.js
+├── style.css
+├── README.md
+├── LICENSE
+├── VERSION
+└── .gitignore
 ```
 
 ---
@@ -192,13 +309,92 @@ Included in this version:
 ```text
 Static HTML page structure
 Custom CSS styling
-JavaScript based card rendering
-GPA semester board interface
+JavaScript based leaderboard rendering
+Two GPA semester boards
 Profile image placement
-Movement indicator asset integration
-Repository documentation
+Title badge integration
+Clean movement indicator assets
+Hover GPA reveal animation
+SEO metadata setup
+Mobile friendly CSS structure
+Documentation page
+Footer copyright and social media links
+README visual preview
 License and version file
 GitHub repository setup
+```
+
+---
+
+## Page Structure
+
+```text
+index.html
+Main GPA leaderboard page.
+
+documentation.html
+Documentation page containing project explanation, feature summary, usage notes, and EN or ID content direction.
+
+style.css
+Main styling file for layout, typography, responsive design, footer, icons, leaderboard board, and documentation page.
+
+main.js
+Main JavaScript file for ranking data, board rendering, movement indicator rendering, and hover data behavior.
+```
+
+---
+
+## Data Structure Direction
+
+The leaderboard data can be managed in JavaScript.
+
+Example data direction:
+
+```text
+Semester board title
+Profile image path
+Rank number
+Student name
+GPA score
+Movement direction
+Movement value
+Title badge
+```
+
+This structure can later be converted into a CRUD based system using backend and database integration.
+
+---
+
+## Future CRUD Development Direction
+
+This static prototype can be developed into a dynamic GPA leaderboard system.
+
+Possible future CRUD features:
+
+```text
+Create student data
+Read leaderboard data
+Update GPA score
+Delete student data
+Upload profile image
+Manage semester boards
+Manage rank movement
+Generate SEO title dynamically
+Generate SEO description dynamically
+Export leaderboard data
+Admin dashboard integration
+```
+
+Possible future backend stack:
+
+```text
+PHP and MySQL
+Node.js and Express
+Laravel
+Firebase
+Supabase
+REST API
+JSON based static data
 ```
 
 ---
@@ -217,6 +413,12 @@ Run the project using Live Server, then open:
 index.html
 ```
 
+Open documentation page:
+
+```text
+documentation.html
+```
+
 Recommended development workflow:
 
 ```powershell
@@ -230,15 +432,13 @@ git push
 
 ## Git Workflow
 
-Initial push command:
+Common Git workflow:
 
 ```powershell
-git init
-git branch -M main
+git status
 git add .
-git commit -m "Initial commit: create GPA leaderboard page"
-git remote add origin https://github.com/GblessSHN-boop/page-leaderboard-gpa-vibe-coding.git
-git push -u origin main
+git commit -m "Update GPA leaderboard project"
+git push
 ```
 
 Create version tag:
@@ -266,11 +466,15 @@ Improve profile image crop system, object position, spacing, and visual balance.
 
 ### Phase 4
 
-Add screenshot preview and documentation assets.
+Add title badge, movement indicator, hover GPA reveal, and social footer.
 
 ### Phase 5
 
-Prepare responsive mobile layout and portfolio presentation.
+Add documentation page, SEO metadata, mobile friendly layout, and README preview.
+
+### Phase 6
+
+Prepare optional CRUD system direction for future dynamic leaderboard management.
 
 ---
 
@@ -292,6 +496,9 @@ Current development focus:
 Frontend web development
 HTML, CSS, and JavaScript
 UI layout exploration
+Static website prototyping
+Responsive web interface
+SEO friendly frontend structure
 Portfolio project building
 Git and GitHub workflow
 Project documentation
@@ -306,6 +513,8 @@ Vibe coding workflow
 ```text
 Developer : GLAND JERMANO BLESSED SIAHAAN
 GitHub    : https://github.com/GblessSHN-boop
+LinkedIn  : https://www.linkedin.com/in/glandsiahaan/
+Instagram : https://www.instagram.com/glandsiahaan
 Location  : Medan, Indonesia
 ```
 
@@ -359,8 +568,6 @@ All rights are reserved by the owner. This project may not be used, copied, modi
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=18008E&height=130&section=footer" alt="Page Leaderboard GPA Footer Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=430808&height=130&section=footer" alt="Page Leaderboard GPA Footer Banner" />
 
 </div>
-
-
