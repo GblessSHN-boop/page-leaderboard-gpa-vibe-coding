@@ -1,0 +1,16 @@
+﻿.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
+*.tmp
+*.bak
+
+node_modules/
+dist/
+build/
+
+index.backup-*.html
+main.backup-*.js
+style.backup-*.css
