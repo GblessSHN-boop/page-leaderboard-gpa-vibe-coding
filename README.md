@@ -43,12 +43,12 @@ Project ini dibuat menggunakan HTML, CSS, dan JavaScript. Fokus pengembangannya 
 ## Visual Preview | Pratinjau Visual
 
 <p align="center">
-  <img src="./docs/readme/web-landing-page-leaderboard.png" alt="Page Leaderboard GPA Visual Preview" width="900" />
+  <img src="./docs/readme/visual-preview-latest.png" alt="Page Leaderboard GPA Visual Preview" width="100%" />
 </p>
 
 <p align="center">
-  <sub><b>EN:</b> Static GPA leaderboard page preview with semester card board layout.</sub><br>
-  <sub><b>ID:</b> Pratinjau halaman leaderboard GPA statis dengan layout card board semester.</sub>
+  <sub><b>EN:</b> Latest GPA leaderboard page preview with responsive semester card board layout.</sub><br>
+  <sub><b>ID:</b> Pratinjau terbaru halaman leaderboard GPA dengan layout card board semester responsif.</sub>
 </p>
 
 ---
@@ -362,3 +362,5 @@ All rights are reserved by the owner. This project may not be used, copied, modi
 <img src="https://capsule-render.vercel.app/api?type=waving&color=18008E&height=130&section=footer" alt="Page Leaderboard GPA Footer Banner" />
 
 </div>
+
+
