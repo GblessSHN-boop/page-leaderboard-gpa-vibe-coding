@@ -542,3 +542,134 @@ img {
   text-transform: uppercase;
 }
 
+
+
+
+/* ===== GLOBAL FONT OVERRIDE : IMPACT REGULAR ===== */
+:root {
+  --font-display: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --font-body: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+label,
+a,
+p,
+span,
+small,
+strong,
+em,
+li,
+td,
+th,
+div,
+nav,
+footer,
+header,
+section,
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-header,
+.site-nav,
+.site-nav a,
+.brand,
+.brand-text,
+.hero,
+.hero h1,
+.hero p,
+.section-heading,
+.section-heading p,
+.section-heading h2,
+.filters,
+.filter-btn,
+.ranking-grid,
+.ranking-card,
+.ranking-card h3,
+.featured-fighter,
+.featured-rank,
+.featured-name,
+.featured-subtitle,
+.fighter-row,
+.fighter-rank,
+.fighter-name,
+.change-pill,
+.site-footer {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+}
+/* ===== END GLOBAL FONT OVERRIDE ===== */
+
+
+
+
+/* ===== FORCE ALL TEXT TO IMPACT REGULAR ===== */
+*,
+*::before,
+*::after {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-synthesis: none !important;
+  text-shadow: none;
+}
+
+html,
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+small,
+strong,
+button,
+div,
+li,
+label,
+nav,
+header,
+footer,
+section,
+article,
+.site-header,
+.site-nav,
+.site-nav a,
+.brand,
+.brand-text,
+.hero h1,
+.eyebrow,
+.section-heading p,
+.section-heading h2,
+.ranking-card h3,
+.card-header h3,
+.featured-rank,
+.featured-name,
+.featured-tag,
+.rank-number,
+.fighter-name,
+.change-pill,
+.site-footer p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: 0.06em;
+}
+/* ===== END FORCE ALL TEXT TO IMPACT REGULAR ===== */
+
