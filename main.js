@@ -252,20 +252,34 @@ renderFilters();
 renderCards();
 
 
+// GPA_HOVER_REVEAL_START
+(function () {
+  function enhanceGpaHoverReveal() {
+    document.querySelectorAll(".fighter-row .fighter-name").forEach(function (item) {
+      if (item.classList.contains("hover-gpa")) {
+        return;
+      }
 
+      const currentName = item.textContent.trim() || "NO NAME";
 
+      item.classList.add("hover-gpa");
+      item.setAttribute("title", "GPA 4.00");
+      item.innerHTML = `
+        <span class="name-text">${currentName}</span>
+        <span class="gpa-text">GPA 4.00</span>
+      `;
+    });
+  }
 
+  document.addEventListener("DOMContentLoaded", enhanceGpaHoverReveal);
+  window.addEventListener("load", enhanceGpaHoverReveal);
 
+  const observer = new MutationObserver(enhanceGpaHoverReveal);
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
+  enhanceGpaHoverReveal();
+})();
+// GPA_HOVER_REVEAL_END

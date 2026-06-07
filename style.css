@@ -755,27 +755,25 @@ article,
 /* ===== END COMPACT HEADER TITLE ICON FINAL ===== */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ===== GPA HOVER REVEAL FOR ROW 2 - 10 ===== */
-.fighter-name.hover-gpa {
+.fighter-row {
+  cursor: pointer;
+}
+
+.fighter-row .fighter-name.hover-gpa {
   position: relative !important;
   display: inline-block !important;
-  min-width: 160px !important;
+  min-width: 170px !important;
   height: 1.35em !important;
   line-height: 1.35em !important;
   overflow: visible !important;
-  color: #2b2d31 !important;
   filter: none !important;
+  color: #2b2d31 !important;
+}
+
+.fighter-row:hover .fighter-name.hover-gpa {
+  filter: none !important;
+  color: #2b2d31 !important;
 }
 
 .fighter-name.hover-gpa .name-text,
@@ -785,7 +783,10 @@ article,
   top: 0 !important;
   display: inline-block !important;
   white-space: nowrap !important;
-  transition: opacity 260ms ease, filter 260ms ease, transform 260ms ease !important;
+  transition:
+    opacity 260ms ease,
+    filter 260ms ease,
+    transform 260ms ease !important;
 }
 
 .fighter-name.hover-gpa .name-text {
@@ -799,20 +800,17 @@ article,
   filter: blur(8px) !important;
   transform: translateY(4px) !important;
   color: #2b2d31 !important;
-  pointer-events: none !important;
 }
 
-.fighter-row:hover .fighter-name.hover-gpa .name-text,
-.fighter-name.hover-gpa:hover .name-text {
+.fighter-row:hover .fighter-name.hover-gpa .name-text {
   opacity: 0 !important;
   filter: blur(8px) !important;
   transform: translateY(-4px) !important;
 }
 
-.fighter-row:hover .fighter-name.hover-gpa .gpa-text,
-.fighter-name.hover-gpa:hover .gpa-text {
+.fighter-row:hover .fighter-name.hover-gpa .gpa-text {
   opacity: 1 !important;
   filter: blur(0) !important;
   transform: translateY(0) !important;
 }
-
+/* ===== END GPA HOVER REVEAL FOR ROW 2 - 10 ===== */
