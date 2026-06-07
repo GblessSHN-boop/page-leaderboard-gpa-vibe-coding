@@ -699,3 +699,55 @@ article,
   object-fit: contain;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== COMPACT HEADER TITLE ICON FINAL ===== */
+.site-header {
+  min-height: 78px !important;
+  height: 78px !important;
+  padding: 14px clamp(24px, 5vw, 80px) !important;
+}
+
+.brand-title-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 72px !important;
+  height: auto !important;
+  line-height: 0 !important;
+  text-decoration: none !important;
+}
+
+.brand-title-icon img {
+  width: 72px !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+  filter: none !important;
+}
+
+@media (max-width: 720px) {
+  .site-header {
+    min-height: 68px !important;
+    height: 68px !important;
+    padding: 12px 20px !important;
+  }
+
+  .brand-title-icon,
+  .brand-title-icon img {
+    width: 58px !important;
+  }
+}
+/* ===== END COMPACT HEADER TITLE ICON FINAL ===== */
+
+
